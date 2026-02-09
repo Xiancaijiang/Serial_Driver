@@ -1,0 +1,43 @@
+{
+  "package_name": "rm_referee_ros2",
+  "output_dir": "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/GameStatus.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/GameRobotHp.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/GameResult.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/FieldEvents.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/RobotHurt.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/RefereeWarning.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/ShootData.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/BulletRemaining.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/RobotStatus.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/RobotPos.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/GameStatus.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/GameRobotHp.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/GameResult.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/FieldEvents.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/RobotHurt.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/RefereeWarning.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/ShootData.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/BulletRemaining.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/RobotStatus.idl",
+    "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2/msg/RobotPos.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

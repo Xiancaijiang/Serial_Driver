@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o"
+  "CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o.d"
+  "CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/dds_fastrtps/shoot_data__type_support.cpp.o"
+  "CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/dds_fastrtps/shoot_data__type_support.cpp.o.d"
+  "librm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "librm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/dds_fastrtps/robot_status__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/dds_fastrtps/shoot_data__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/shoot_data__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

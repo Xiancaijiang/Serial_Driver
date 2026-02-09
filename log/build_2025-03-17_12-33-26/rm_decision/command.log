@@ -1,0 +1,6 @@
+Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_decision/rm_decision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/rm_decision
+Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_decision/rm_decision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/rm_decision
+Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_decision -- -j8 -l8
+Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_decision -- -j8 -l8
+Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_decision
+Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_decision

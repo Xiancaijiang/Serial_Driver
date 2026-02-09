@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hj/PB_RM_Vision_2/build/rm_rune_detector/librm_rune_detector.so" "TARGETS" "rm_rune_detector" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

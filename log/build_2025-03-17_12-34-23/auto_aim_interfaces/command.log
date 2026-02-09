@@ -1,0 +1,4 @@
+Invoking command in '/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/auto_aim_interfaces -- -j8 -l8
+Invoked command in '/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/auto_aim_interfaces -- -j8 -l8
+Invoking command in '/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/auto_aim_interfaces
+Invoked command in '/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/auto_aim_interfaces

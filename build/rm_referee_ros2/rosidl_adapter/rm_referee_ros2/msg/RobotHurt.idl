@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_referee_ros2/msg/RobotHurt.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module rm_referee_ros2 {
+  module msg {
+    struct RobotHurt {
+      @verbatim (language="comment", text=
+        "受击装甲板ID：0-3：前后左右装甲板，4：上装甲板，5：下装甲板")
+      uint8 armor_id;
+
+      @verbatim (language="comment", text=
+        "伤害类型：0：装甲板伤害，1：模块掉线，2：超射速，3：超热量，4：超功率，5：撞击")
+      uint8 hurt_type;
+
+      @verbatim (language="comment", text=
+        "时间戳")
+      builtin_interfaces::msg::Time stamp;
+    };
+  };
+};

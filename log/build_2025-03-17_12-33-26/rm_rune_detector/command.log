@@ -1,0 +1,6 @@
+Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_rune_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_rune_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/rm_rune_detector
+Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_rune_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_rune_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/rm_rune_detector
+Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_rune_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_rune_detector -- -j8 -l8
+Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_rune_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_rune_detector -- -j8 -l8
+Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_rune_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_rune_detector
+Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_rune_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_rune_detector

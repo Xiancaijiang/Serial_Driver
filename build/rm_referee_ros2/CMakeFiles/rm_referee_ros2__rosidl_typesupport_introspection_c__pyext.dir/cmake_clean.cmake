@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen.dir/ParseCache.txt"
+  "rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen"
+  "CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext.dir/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext.dir/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_introspection_c.c.o"
+  "CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_introspection_c.c.o.d"
+  "rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen/mocs_compilation.cpp"
+  "rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen/timestamp"
+  "rosidl_generator_py/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.pdb"
+  "rosidl_generator_py/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

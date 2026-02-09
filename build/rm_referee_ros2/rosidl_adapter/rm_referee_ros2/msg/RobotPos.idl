@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_referee_ros2/msg/RobotPos.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module rm_referee_ros2 {
+  module msg {
+    struct RobotPos {
+      @verbatim (language="comment", text=
+        "机器人位置x坐标，单位：米")
+      float x;
+
+      @verbatim (language="comment", text=
+        "机器人位置y坐标，单位：米")
+      float y;
+
+      @verbatim (language="comment", text=
+        "机器人朝向角度，单位：度，正北为0度")
+      float angle;
+
+      @verbatim (language="comment", text=
+        "时间戳")
+      builtin_interfaces::msg::Time stamp;
+    };
+  };
+};

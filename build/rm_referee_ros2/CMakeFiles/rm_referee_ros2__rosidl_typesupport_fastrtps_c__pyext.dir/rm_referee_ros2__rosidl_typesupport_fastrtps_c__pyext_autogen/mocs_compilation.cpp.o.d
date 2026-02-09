@@ -1,0 +1,3 @@
+CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext_autogen/mocs_compilation.cpp.o: \
+ /home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext_autogen/mocs_compilation.cpp \
+ /usr/include/stdc-predef.h

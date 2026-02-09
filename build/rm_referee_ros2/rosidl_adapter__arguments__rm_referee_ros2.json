@@ -1,0 +1,15 @@
+{
+  "package_name": "rm_referee_ros2",
+  "non_idl_tuples": [
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/GameStatus.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/GameRobotHp.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/GameResult.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/FieldEvents.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/RobotHurt.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/RefereeWarning.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/ShootData.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/BulletRemaining.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/RobotStatus.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2:msg/RobotPos.msg"
+  ]
+}

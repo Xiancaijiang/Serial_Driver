@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_generator_py/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "rm_referee_ros2__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/rm_referee_ros2")

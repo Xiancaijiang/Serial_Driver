@@ -1,0 +1,8 @@
+/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armor.idl
+/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armors.idl
+/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Target.idl
+/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLight.idl
+/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLights.idl
+/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmor.idl
+/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmors.idl
+/home/hj/PB_RM_Vision_2/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/TrackerInfo.idl

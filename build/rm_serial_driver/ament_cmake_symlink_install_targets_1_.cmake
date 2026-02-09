@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hj/PB_RM_Vision_2/build/rm_serial_driver/rosidl_generator_py/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "rm_serial_driver__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/rm_serial_driver")

@@ -1,0 +1,22 @@
+[100%] Built target robot_decision_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/lib/rm_decision/robot_decision_node
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/include//rm_decision/robot_decision.hpp
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/launch/robot_decision.launch.py
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/config/robot_decision_params.yaml
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/ament_index/resource_index/package_run_dependencies/rm_decision
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/ament_index/resource_index/parent_prefix_path/rm_decision
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/environment/path.sh
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/environment/path.dsv
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/local_setup.bash
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/local_setup.sh
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/local_setup.zsh
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/local_setup.dsv
+-- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/package.dsv
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/ament_index/resource_index/packages/rm_decision
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/cmake/rm_decisionConfig.cmake
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/cmake/rm_decisionConfig-version.cmake
+-- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_decision/share/rm_decision/package.xml

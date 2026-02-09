@@ -1,0 +1,4 @@
+uint8 level           # 警告等级：1（双方黄牌），2（黄牌），3（红牌），4（判负）
+uint8 foul_robot_id   # 违规机器人ID（双方黄牌和判负时，该值为0）
+uint8 count           # 该违规等级的违规次数（开局默认为0）
+builtin_interfaces/Time stamp # 时间戳 

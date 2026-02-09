@@ -1,0 +1,6 @@
+Invoking command in '/home/hj/PB_RM_Vision_2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/ros2_hik_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/hik_camera
+Invoked command in '/home/hj/PB_RM_Vision_2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/ros2_hik_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/hik_camera
+Invoking command in '/home/hj/PB_RM_Vision_2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/hik_camera -- -j8 -l8
+Invoked command in '/home/hj/PB_RM_Vision_2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/hik_camera -- -j8 -l8
+Invoking command in '/home/hj/PB_RM_Vision_2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/hik_camera
+Invoked command in '/home/hj/PB_RM_Vision_2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/hik_camera

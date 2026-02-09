@@ -1,0 +1,10 @@
+from rm_referee_ros2.msg._bullet_remaining import BulletRemaining  # noqa: F401
+from rm_referee_ros2.msg._field_events import FieldEvents  # noqa: F401
+from rm_referee_ros2.msg._game_result import GameResult  # noqa: F401
+from rm_referee_ros2.msg._game_robot_hp import GameRobotHp  # noqa: F401
+from rm_referee_ros2.msg._game_status import GameStatus  # noqa: F401
+from rm_referee_ros2.msg._referee_warning import RefereeWarning  # noqa: F401
+from rm_referee_ros2.msg._robot_hurt import RobotHurt  # noqa: F401
+from rm_referee_ros2.msg._robot_pos import RobotPos  # noqa: F401
+from rm_referee_ros2.msg._robot_status import RobotStatus  # noqa: F401
+from rm_referee_ros2.msg._shoot_data import ShootData  # noqa: F401

@@ -1,0 +1,10 @@
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/GameStatus.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/GameRobotHp.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/GameResult.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/FieldEvents.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/RobotHurt.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/RefereeWarning.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/ShootData.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/BulletRemaining.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/RobotStatus.idl
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rosidl_adapter/rm_referee_ros2:msg/RobotPos.idl

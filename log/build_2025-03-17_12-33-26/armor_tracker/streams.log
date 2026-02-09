@@ -1,0 +1,83 @@
+[0.011s] Invoking command in '/home/hj/PB_RM_Vision_2/build/armor_tracker': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_auto_aim/armor_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/armor_tracker
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.132s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.207s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.215s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.449s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.671s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.677s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.689s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.791s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.794s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.868s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.895s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.987s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.988s] -- Found Threads: TRUE  
+[1.271s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.271s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.271s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.444s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.487s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.487s] -- Configured cppcheck include dirs: /home/hj/PB_RM_Vision_2/src/rm_auto_aim/armor_tracker/include
+[1.488s] -- Configured cppcheck exclude dirs and/or files: 
+[1.490s] -- Added test 'lint_cmake' to check CMake code style
+[1.490s] -- Added test 'xmllint' to check XML markup files
+[1.492s] -- Added test 'clang_format' to check C / C++ code style
+[1.500s] -- Configuring done (1.5s)
+[1.528s] -- Generating done (0.0s)
+[1.545s] -- Build files have been written to: /home/hj/PB_RM_Vision_2/build/armor_tracker
+[1.552s] Invoked command in '/home/hj/PB_RM_Vision_2/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_auto_aim/armor_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/armor_tracker
+[1.554s] Invoking command in '/home/hj/PB_RM_Vision_2/build/armor_tracker': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/armor_tracker -- -j8 -l8
+[1.600s] [ 16%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/extended_kalman_filter.cpp.o[0m
+[1.601s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_tracker_node.dir/rclcpp_components/node_main_armor_tracker_node.cpp.o[0m
+[1.605s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/tracker.cpp.o[0m
+[1.613s] [ 66%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o[0m
+[11.336s] [ 83%] [32m[1mLinking CXX executable armor_tracker_node[0m
+[11.656s] [ 83%] Built target armor_tracker_node
+[20.025s] [100%] [32m[1mLinking CXX shared library libarmor_tracker.so[0m
+[20.825s] [100%] Built target armor_tracker
+[20.830s] Invoked command in '/home/hj/PB_RM_Vision_2/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/armor_tracker -- -j8 -l8
+[20.832s] Invoking command in '/home/hj/PB_RM_Vision_2/build/armor_tracker': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/armor_tracker
+[20.834s] -- Install configuration: ""
+[20.834s] -- Execute custom install script
+[20.834s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/lib/armor_tracker/armor_tracker_node
+[20.838s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/include/armor_tracker/extended_kalman_filter.hpp
+[20.841s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/include/armor_tracker/tracker.hpp
+[20.844s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/include/armor_tracker/tracker_node.hpp
+[20.847s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/environment/library_path.sh
+[20.850s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/environment/library_path.dsv
+[20.853s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/lib/libarmor_tracker.so
+[20.856s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/ament_index/resource_index/package_run_dependencies/armor_tracker
+[20.859s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/ament_index/resource_index/parent_prefix_path/armor_tracker
+[20.861s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/environment/ament_prefix_path.sh
+[20.864s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/environment/ament_prefix_path.dsv
+[20.867s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/environment/path.sh
+[20.870s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/environment/path.dsv
+[20.872s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/local_setup.bash
+[20.875s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/local_setup.sh
+[20.878s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/local_setup.zsh
+[20.881s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/local_setup.dsv
+[20.884s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/package.dsv
+[20.887s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/ament_index/resource_index/packages/armor_tracker
+[20.891s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/ament_index/resource_index/rclcpp_components/armor_tracker
+[20.894s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.896s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.899s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_libraries-extras.cmake
+[20.902s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/cmake/armor_trackerConfig.cmake
+[20.904s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/cmake/armor_trackerConfig-version.cmake
+[20.907s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_tracker/share/armor_tracker/package.xml
+[20.911s] Invoked command in '/home/hj/PB_RM_Vision_2/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/armor_tracker

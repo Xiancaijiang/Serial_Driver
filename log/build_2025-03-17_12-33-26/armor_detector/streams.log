@@ -1,0 +1,104 @@
+[0.013s] Invoking command in '/home/hj/PB_RM_Vision_2/build/armor_detector': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/armor_detector
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.317s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.567s] -- Found OpenCV: /usr/local (found version "4.5.5") 
+[0.687s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.707s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.810s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.813s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.909s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.944s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.090s] -- Found Threads: TRUE  
+[1.412s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.414s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.414s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.552s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.582s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.587s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.627s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.627s] -- Configured cppcheck include dirs: /home/hj/PB_RM_Vision_2/src/rm_auto_aim/armor_detector/include
+[1.627s] -- Configured cppcheck exclude dirs and/or files: 
+[1.627s] -- Added test 'lint_cmake' to check CMake code style
+[1.628s] -- Added test 'xmllint' to check XML markup files
+[1.636s] -- Added test 'clang_format' to check C / C++ code style
+[1.652s] -- Configuring done (1.6s)
+[1.753s] -- Generating done (0.1s)
+[1.785s] -- Build files have been written to: /home/hj/PB_RM_Vision_2/build/armor_detector
+[1.819s] Invoked command in '/home/hj/PB_RM_Vision_2/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/armor_detector
+[1.826s] Invoking command in '/home/hj/PB_RM_Vision_2/build/armor_detector': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/armor_detector -- -j8 -l8
+[1.891s] [  6%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[1.891s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[1.895s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[1.895s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[1.900s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[1.901s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.909s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.297s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.428s] [ 53%] Built target gtest_main
+[10.805s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.970s] [ 60%] Built target gtest
+[12.248s] [ 66%] [32m[1mLinking CXX executable armor_detector_node[0m
+[12.398s] [ 66%] Built target armor_detector_node
+[24.654s] [ 73%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[25.628s] [ 73%] Built target armor_detector
+[25.637s] [ 86%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[25.637s] [ 86%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[27.393s] [ 93%] [32m[1mLinking CXX executable test_number_cls[0m
+[27.771s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.405
+[28.058s] [ 93%] Built target test_number_cls
+[29.801s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[30.394s] [100%] Built target test_node_startup
+[30.399s] Invoked command in '/home/hj/PB_RM_Vision_2/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/armor_detector -- -j8 -l8
+[30.400s] Invoking command in '/home/hj/PB_RM_Vision_2/build/armor_detector': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/armor_detector
+[30.403s] -- Install configuration: ""
+[30.403s] -- Execute custom install script
+[30.403s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/lib/armor_detector/armor_detector_node
+[30.407s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/include/armor_detector/armor.hpp
+[30.409s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/include/armor_detector/detector.hpp
+[30.412s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/include/armor_detector/detector_node.hpp
+[30.415s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/include/armor_detector/number_classifier.hpp
+[30.418s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[30.422s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/environment/library_path.sh
+[30.424s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[30.427s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/lib/libarmor_detector.so
+[30.430s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/model/label.txt
+[30.433s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/model/mlp.onnx
+[30.436s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[30.438s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[30.441s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[30.444s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[30.446s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/environment/path.sh
+[30.449s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/environment/path.dsv
+[30.451s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/local_setup.bash
+[30.454s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/local_setup.sh
+[30.457s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/local_setup.zsh
+[30.460s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/local_setup.dsv
+[30.463s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/package.dsv
+[30.466s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[30.469s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[30.471s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.474s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.477s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[30.479s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[30.482s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[30.485s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/armor_detector/share/armor_detector/package.xml
+[30.489s] Invoked command in '/home/hj/PB_RM_Vision_2/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/armor_detector

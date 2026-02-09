@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+4d469c672a4a5a9f453dd4c92e88ac2c CMakeFiles/hik_camera_uninstall

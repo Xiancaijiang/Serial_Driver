@@ -1,0 +1,539 @@
+[0.067s] Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.298s] -- The CXX compiler identification is GNU 11.4.0
+[0.324s] -- Detecting C compiler ABI info
+[0.452s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.480s] -- Detecting C compile features
+[0.480s] -- Detecting C compile features - done
+[0.509s] -- Detecting CXX compiler ABI info
+[0.696s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.720s] -- Detecting CXX compile features
+[0.721s] -- Detecting CXX compile features - done
+[0.773s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.040s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.265s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.340s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.350s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.365s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.475s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.479s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.568s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.593s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.630s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.684s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.685s] -- Found Threads: TRUE  
+[1.736s] -- Found serial: 1.2.1 (/home/hj/PB_RM_Vision_2/install/serial/share/serial/cmake)
+[1.738s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.092s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.985s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.985s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.985s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.985s]   the cmake_policy command to set the policy and suppress this warning.
+[2.985s] 
+[2.985s] Call Stack (most recent call first):
+[2.986s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.986s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.986s]   CMakeLists.txt:32 (rosidl_generate_interfaces)
+[2.986s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.986s] [0m
+[3.001s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.002s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.003s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.003s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.003s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.003s]   the cmake_policy command to set the policy and suppress this warning.
+[3.003s] 
+[3.003s] Call Stack (most recent call first):
+[3.003s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.003s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.003s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.003s]   CMakeLists.txt:32 (rosidl_generate_interfaces)
+[3.004s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.004s] [0m
+[3.021s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.021s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.021s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.021s]   the cmake_policy command to set the policy and suppress this warning.
+[3.021s] 
+[3.021s] Call Stack (most recent call first):
+[3.021s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.021s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.021s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.021s]   CMakeLists.txt:32 (rosidl_generate_interfaces)
+[3.021s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.021s] [0m
+[3.027s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.027s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.027s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.027s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.046s] -- Found PythonExtra: .so  
+[3.093s] -- Configuring done (3.0s)
+[3.229s] -- Generating done (0.1s)
+[3.253s] -- Build files have been written to: /home/hj/PB_RM_Vision_2/build/rm_referee_ros2
+[3.270s] Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2
+[3.272s] Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_referee_ros2 -- -j8 -l8
+[3.297s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.299s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.300s] [  1%] Built target ament_cmake_python_symlink_rm_referee_ros2
+[3.560s] running egg_info
+[3.560s] creating rm_referee_ros2.egg-info
+[3.561s] writing rm_referee_ros2.egg-info/PKG-INFO
+[3.561s] writing dependency_links to rm_referee_ros2.egg-info/dependency_links.txt
+[3.561s] writing top-level names to rm_referee_ros2.egg-info/top_level.txt
+[3.561s] writing manifest file 'rm_referee_ros2.egg-info/SOURCES.txt'
+[3.565s] reading manifest file 'rm_referee_ros2.egg-info/SOURCES.txt'
+[3.565s] writing manifest file 'rm_referee_ros2.egg-info/SOURCES.txt'
+[3.591s] [  1%] Built target ament_cmake_python_build_rm_referee_ros2_egg
+[4.488s] [  1%] Built target rm_referee_ros2__cpp
+[4.500s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.500s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.501s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.933s] [  3%] Built target rm_referee_ros2__rosidl_generator_c_autogen_timestamp_deps
+[4.950s] [  4%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_generator_c[0m
+[5.000s] [  4%] Built target rm_referee_ros2__rosidl_generator_c_autogen
+[5.032s] [  5%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rm_referee_ros2__rosidl_generator_c_autogen/mocs_compilation.cpp.o[0m
+[5.039s] [  5%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/game_status__functions.c.o[0m
+[5.045s] [  6%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/game_robot_hp__functions.c.o[0m
+[5.057s] [  7%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/game_result__functions.c.o[0m
+[5.057s] [  7%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/field_events__functions.c.o[0m
+[5.092s] [  8%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/robot_hurt__functions.c.o[0m
+[5.157s] [  9%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/referee_warning__functions.c.o[0m
+[5.163s] [  9%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/shoot_data__functions.c.o[0m
+[5.168s] [ 10%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/bullet_remaining__functions.c.o[0m
+[5.184s] [ 10%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/robot_pos__functions.c.o[0m
+[5.189s] [ 11%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_c.dir/rosidl_generator_c/rm_referee_ros2/msg/detail/robot_status__functions.c.o[0m
+[5.322s] [ 12%] [32m[1mLinking CXX shared library librm_referee_ros2__rosidl_generator_c.so[0m
+[5.464s] [ 13%] Built target rm_referee_ros2__rosidl_generator_c
+[5.511s] [ 14%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.520s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.521s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.887s] [ 15%] Built target rm_referee_ros2__rosidl_typesupport_cpp_autogen_timestamp_deps
+[6.930s] [ 15%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_cpp[0m
+[6.987s] [ 15%] Built target rm_referee_ros2__rosidl_typesupport_cpp_autogen
+[7.036s] [ 15%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rm_referee_ros2__rosidl_typesupport_cpp_autogen/mocs_compilation.cpp.o[0m
+[7.048s] [ 16%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/game_status__type_support.cpp.o[0m
+[7.048s] [ 17%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/game_robot_hp__type_support.cpp.o[0m
+[7.086s] [ 17%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/game_result__type_support.cpp.o[0m
+[7.231s] [ 17%] Built target rm_referee_ros2__rosidl_typesupport_introspection_cpp_autogen_timestamp_deps
+[7.283s] [ 18%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_introspection_cpp[0m
+[7.348s] [ 18%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_cpp_autogen_timestamp_deps
+[7.360s] [ 18%] Built target rm_referee_ros2__rosidl_typesupport_introspection_cpp_autogen
+[7.382s] [ 19%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_fastrtps_cpp[0m
+[7.425s] [ 20%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rm_referee_ros2__rosidl_typesupport_introspection_cpp_autogen/mocs_compilation.cpp.o[0m
+[7.465s] [ 20%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_cpp_autogen
+[7.467s] [ 21%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/game_status__type_support.cpp.o[0m
+[7.495s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/field_events__type_support.cpp.o[0m
+[7.525s] [ 23%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp_autogen/mocs_compilation.cpp.o[0m
+[7.575s] [ 23%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/game_status__type_support.cpp.o[0m
+[8.065s] [ 24%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/game_robot_hp__type_support.cpp.o[0m
+[8.112s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/robot_hurt__type_support.cpp.o[0m
+[8.180s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/game_robot_hp__type_support.cpp.o[0m
+[8.430s] [ 26%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/game_result__type_support.cpp.o[0m
+[8.682s] [ 27%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/field_events__type_support.cpp.o[0m
+[8.809s] [ 27%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c_autogen_timestamp_deps
+[8.820s] [ 27%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/referee_warning__type_support.cpp.o[0m
+[9.053s] [ 28%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/shoot_data__type_support.cpp.o[0m
+[9.179s] [ 29%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/game_result__type_support.cpp.o[0m
+[9.198s] [ 29%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/robot_hurt__type_support.cpp.o[0m
+[9.256s] [ 29%] Built target rm_referee_ros2__rosidl_typesupport_c_autogen_timestamp_deps
+[9.289s] [ 29%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_introspection_c[0m
+[9.365s] [ 29%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c_autogen
+[9.378s] [ 29%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/field_events__type_support.cpp.o[0m
+[9.518s] [ 30%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/bullet_remaining__type_support.cpp.o[0m
+[9.545s] [ 31%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/referee_warning__type_support.cpp.o[0m
+[9.669s] [ 32%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_c[0m
+[9.741s] [ 32%] Built target rm_referee_ros2__rosidl_typesupport_c_autogen
+[9.744s] [ 32%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c_autogen_timestamp_deps
+[9.755s] [ 33%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/robot_hurt__type_support.cpp.o[0m
+[9.810s] [ 34%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rm_referee_ros2__rosidl_typesupport_introspection_c_autogen/mocs_compilation.cpp.o[0m
+[9.847s] [ 35%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/game_status__type_support.c.o[0m
+[9.926s] [ 35%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/game_robot_hp__type_support.c.o[0m
+[10.016s] [ 36%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/game_result__type_support.c.o[0m
+[10.091s] [ 36%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rm_referee_ros2__rosidl_typesupport_c_autogen/mocs_compilation.cpp.o[0m
+[10.101s] [ 37%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/field_events__type_support.c.o[0m
+[10.131s] [ 38%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/shoot_data__type_support.cpp.o[0m
+[10.143s] [ 39%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/game_status__type_support.cpp.o[0m
+[10.157s] [ 39%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/robot_status__type_support.cpp.o[0m
+[10.176s] [ 39%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/robot_hurt__type_support.c.o[0m
+[10.213s] [ 40%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/game_robot_hp__type_support.cpp.o[0m
+[10.272s] [ 41%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/referee_warning__type_support.c.o[0m
+[10.277s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/game_result__type_support.cpp.o[0m
+[10.328s] [ 42%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/shoot_data__type_support.c.o[0m
+[10.363s] [ 43%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/field_events__type_support.cpp.o[0m
+[10.400s] [ 43%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/bullet_remaining__type_support.c.o[0m
+[10.428s] [ 44%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/referee_warning__type_support.cpp.o[0m
+[10.430s] [ 45%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/robot_hurt__type_support.cpp.o[0m
+[10.473s] [ 46%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/robot_status__type_support.c.o[0m
+[10.489s] [ 46%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/referee_warning__type_support.cpp.o[0m
+[10.534s] [ 46%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/bullet_remaining__type_support.cpp.o[0m
+[10.557s] [ 47%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/shoot_data__type_support.cpp.o[0m
+[10.597s] [ 48%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_referee_ros2/msg/detail/robot_pos__type_support.c.o[0m
+[10.651s] [ 49%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/bullet_remaining__type_support.cpp.o[0m
+[10.680s] [ 49%] [32m[1mLinking CXX shared library librm_referee_ros2__rosidl_typesupport_introspection_c.so[0m
+[10.739s] [ 49%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/robot_status__type_support.cpp.o[0m
+[10.748s] [ 49%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/shoot_data__type_support.cpp.o[0m
+[10.808s] [ 50%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c
+[10.824s] [ 51%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_referee_ros2/msg/robot_pos__type_support.cpp.o[0m
+[10.835s] [ 52%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_referee_ros2/msg/robot_pos__type_support.cpp.o[0m
+[10.839s] [ 53%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/robot_status__type_support.cpp.o[0m
+[10.880s] [ 54%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_referee_ros2/msg/detail/robot_pos__type_support.cpp.o[0m
+[10.904s] [ 55%] [32m[1mLinking CXX shared library librm_referee_ros2__rosidl_typesupport_c.so[0m
+[10.997s] [ 57%] Built target rm_referee_ros2__rosidl_typesupport_c
+[11.017s] [ 58%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/bullet_remaining__type_support.cpp.o[0m
+[11.506s] [ 59%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[11.577s] [ 59%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_referee_ros2/msg/detail/dds_fastrtps/robot_pos__type_support.cpp.o[0m
+[11.680s] [ 60%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_fastrtps_c[0m
+[11.693s] [ 61%] [32m[1mLinking CXX shared library librm_referee_ros2__rosidl_typesupport_cpp.so[0m
+[11.774s] [ 61%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c_autogen
+[11.837s] [ 62%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rm_referee_ros2__rosidl_typesupport_fastrtps_c_autogen/mocs_compilation.cpp.o[0m
+[11.846s] [ 64%] Built target rm_referee_ros2__rosidl_typesupport_cpp
+[11.856s] [ 64%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/game_status__type_support_c.cpp.o[0m
+[11.874s] [ 65%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/game_robot_hp__type_support_c.cpp.o[0m
+[11.893s] [ 65%] Built target rm_referee_node_autogen_timestamp_deps
+[11.893s] [ 66%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/game_result__type_support_c.cpp.o[0m
+[11.913s] [ 66%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/field_events__type_support_c.cpp.o[0m
+[11.974s] [ 66%] [32m[1mLinking CXX shared library librm_referee_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[12.138s] [ 67%] Built target rm_referee_ros2__rosidl_typesupport_introspection_cpp
+[12.165s] [ 67%] [34m[1mAutomatic MOC and UIC for target rm_referee_node[0m
+[12.259s] [ 68%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/robot_hurt__type_support_c.cpp.o[0m
+[12.263s] [ 68%] Built target rm_referee_node_autogen
+[12.288s] [ 68%] [34m[1mGenerating include/rm_referee_ros2/moc_debug_ui.cpp[0m
+[12.290s] [ 69%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/referee_warning__type_support_c.cpp.o[0m
+[12.529s] [ 69%] [32mBuilding CXX object CMakeFiles/rm_referee_node.dir/rm_referee_node_autogen/mocs_compilation.cpp.o[0m
+[12.541s] [ 69%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/shoot_data__type_support_c.cpp.o[0m
+[12.555s] [ 70%] [32mBuilding CXX object CMakeFiles/rm_referee_node.dir/src/rm_referee_node.cpp.o[0m
+[12.595s] [ 71%] [32m[1mLinking CXX shared library librm_referee_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.711s] [ 72%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/bullet_remaining__type_support_c.cpp.o[0m
+[12.840s] [ 73%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_cpp
+[12.852s] [ 74%] [32mBuilding CXX object CMakeFiles/rm_referee_node.dir/src/referee.cpp.o[0m
+[12.855s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/robot_status__type_support_c.cpp.o[0m
+[12.998s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_referee_ros2/msg/detail/robot_pos__type_support_c.cpp.o[0m
+[13.056s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_referee_node.dir/src/debug_ui.cpp.o[0m
+[13.373s] [ 76%] [32mBuilding CXX object CMakeFiles/rm_referee_node.dir/include/rm_referee_ros2/moc_debug_ui.cpp.o[0m
+[13.933s] [ 77%] [32m[1mLinking CXX shared library librm_referee_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[14.093s] [ 78%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c
+[14.119s] [ 78%] Built target rm_referee_ros2
+[14.149s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.998s] [ 79%] Built target rm_referee_ros2__py
+[17.007s] [ 79%] Built target rm_referee_ros2__rosidl_generator_py_autogen_timestamp_deps
+[17.015s] [ 79%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_generator_py[0m
+[17.033s] [ 79%] Built target rm_referee_ros2__rosidl_generator_py_autogen
+[17.054s] [ 80%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rm_referee_ros2__rosidl_generator_py_autogen/mocs_compilation.cpp.o[0m
+[17.055s] [ 81%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_game_robot_hp_s.c.o[0m
+[17.055s] [ 81%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_game_status_s.c.o[0m
+[17.055s] [ 82%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_game_result_s.c.o[0m
+[17.055s] [ 82%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_field_events_s.c.o[0m
+[17.055s] [ 83%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_robot_hurt_s.c.o[0m
+[17.081s] [ 84%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_referee_warning_s.c.o[0m
+[17.187s] [ 84%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_shoot_data_s.c.o[0m
+[17.200s] [ 85%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_bullet_remaining_s.c.o[0m
+[17.245s] [ 86%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_robot_status_s.c.o[0m
+[17.253s] [ 86%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_generator_py.dir/rosidl_generator_py/rm_referee_ros2/msg/_robot_pos_s.c.o[0m
+[17.393s] [ 87%] [32m[1mLinking CXX shared library rosidl_generator_py/rm_referee_ros2/librm_referee_ros2__rosidl_generator_py.so[0m
+[17.443s] [ 88%] Built target rm_referee_ros2__rosidl_generator_py
+[17.456s] [ 88%] Built target rm_referee_ros2__rosidl_typesupport_c__pyext_autogen_timestamp_deps
+[17.457s] [ 88%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext_autogen_timestamp_deps
+[17.459s] [ 88%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen_timestamp_deps
+[17.470s] [ 89%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext[0m
+[17.470s] [ 89%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_c__pyext[0m
+[17.472s] [ 90%] [34m[1mAutomatic MOC and UIC for target rm_referee_ros2__rosidl_typesupport_introspection_c__pyext[0m
+[17.496s] [ 90%] Built target rm_referee_ros2__rosidl_typesupport_c__pyext_autogen
+[17.496s] [ 90%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext_autogen
+[17.507s] [ 90%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen
+[17.521s] [ 91%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[17.521s] [ 92%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.521s] [ 92%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext_autogen/mocs_compilation.cpp.o[0m
+[17.521s] [ 93%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_c__pyext.dir/rm_referee_ros2__rosidl_typesupport_c__pyext_autogen/mocs_compilation.cpp.o[0m
+[17.538s] [ 93%] [32mBuilding C object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.539s] [ 94%] [32mBuilding CXX object CMakeFiles/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext.dir/rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen/mocs_compilation.cpp.o[0m
+[17.676s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.685s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.700s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.729s] [ 97%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext
+[17.733s] [ 97%] Built target rm_referee_ros2__rosidl_typesupport_c__pyext
+[17.740s] [ 98%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c__pyext
+[22.546s] [ 99%] [32m[1mLinking CXX executable rm_referee_node[0m
+[23.194s] [100%] Built target rm_referee_node
+[23.200s] Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_referee_ros2 -- -j8 -l8
+[23.201s] Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_referee_ros2
+[23.205s] -- Install configuration: ""
+[23.205s] -- Execute custom install script
+[23.205s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/ament_index/resource_index/rosidl_interfaces/rm_referee_ros2
+[23.209s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/bullet_remaining.h
+[23.212s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__functions.h
+[23.215s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__struct.h
+[23.218s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__type_support.h
+[23.221s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__functions.h
+[23.224s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__struct.h
+[23.227s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__type_support.h
+[23.230s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__functions.h
+[23.233s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__struct.h
+[23.236s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__type_support.h
+[23.239s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__functions.h
+[23.241s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__struct.h
+[23.245s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__type_support.h
+[23.248s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__functions.h
+[23.252s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__struct.h
+[23.255s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__type_support.h
+[23.258s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__functions.h
+[23.261s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__struct.h
+[23.264s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__type_support.h
+[23.267s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__functions.h
+[23.270s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__struct.h
+[23.273s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__type_support.h
+[23.276s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__functions.h
+[23.279s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__struct.h
+[23.282s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__type_support.h
+[23.285s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__functions.h
+[23.288s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__struct.h
+[23.291s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__type_support.h
+[23.294s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__functions.h
+[23.297s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__struct.h
+[23.300s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__type_support.h
+[23.303s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/field_events.h
+[23.306s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_result.h
+[23.308s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_robot_hp.h
+[23.311s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_status.h
+[23.314s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/referee_warning.h
+[23.316s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_hurt.h
+[23.319s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_pos.h
+[23.322s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_status.h
+[23.325s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_generator_c__visibility_control.h
+[23.328s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/shoot_data.h
+[23.330s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/library_path.sh
+[23.333s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/library_path.dsv
+[23.336s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__rosidl_typesupport_fastrtps_c.h
+[23.339s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__rosidl_typesupport_fastrtps_c.h
+[23.342s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__rosidl_typesupport_fastrtps_c.h
+[23.345s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__rosidl_typesupport_fastrtps_c.h
+[23.349s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__rosidl_typesupport_fastrtps_c.h
+[23.352s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__rosidl_typesupport_fastrtps_c.h
+[23.354s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__rosidl_typesupport_fastrtps_c.h
+[23.357s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__rosidl_typesupport_fastrtps_c.h
+[23.360s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[23.363s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__rosidl_typesupport_fastrtps_c.h
+[23.365s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.369s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/bullet_remaining.hpp
+[23.371s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__builder.hpp
+[23.374s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__struct.hpp
+[23.377s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__traits.hpp
+[23.380s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__type_support.hpp
+[23.382s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__builder.hpp
+[23.386s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__struct.hpp
+[23.389s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__traits.hpp
+[23.392s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__type_support.hpp
+[23.395s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__builder.hpp
+[23.398s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__struct.hpp
+[23.400s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__traits.hpp
+[23.403s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__type_support.hpp
+[23.406s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__builder.hpp
+[23.409s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__struct.hpp
+[23.412s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__traits.hpp
+[23.415s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__type_support.hpp
+[23.418s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__builder.hpp
+[23.421s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__struct.hpp
+[23.424s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__traits.hpp
+[23.426s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__type_support.hpp
+[23.429s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__builder.hpp
+[23.432s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__struct.hpp
+[23.435s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__traits.hpp
+[23.438s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__type_support.hpp
+[23.441s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__builder.hpp
+[23.444s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__struct.hpp
+[23.446s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__traits.hpp
+[23.449s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__type_support.hpp
+[23.452s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__builder.hpp
+[23.455s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__struct.hpp
+[23.458s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__traits.hpp
+[23.461s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__type_support.hpp
+[23.463s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__builder.hpp
+[23.466s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__struct.hpp
+[23.468s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__traits.hpp
+[23.471s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__type_support.hpp
+[23.474s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__builder.hpp
+[23.477s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__struct.hpp
+[23.480s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__traits.hpp
+[23.482s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__type_support.hpp
+[23.485s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/field_events.hpp
+[23.488s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_result.hpp
+[23.492s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_robot_hp.hpp
+[23.495s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_status.hpp
+[23.498s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/referee_warning.hpp
+[23.501s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_hurt.hpp
+[23.503s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_pos.hpp
+[23.506s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_status.hpp
+[23.509s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.512s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/shoot_data.hpp
+[23.515s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__rosidl_typesupport_fastrtps_cpp.hpp
+[23.518s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__rosidl_typesupport_fastrtps_cpp.hpp
+[23.521s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__rosidl_typesupport_fastrtps_cpp.hpp
+[23.523s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__rosidl_typesupport_fastrtps_cpp.hpp
+[23.526s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__rosidl_typesupport_fastrtps_cpp.hpp
+[23.529s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__rosidl_typesupport_fastrtps_cpp.hpp
+[23.532s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__rosidl_typesupport_fastrtps_cpp.hpp
+[23.535s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[23.538s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[23.541s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__rosidl_typesupport_fastrtps_cpp.hpp
+[23.544s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.548s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__rosidl_typesupport_introspection_c.h
+[23.551s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__rosidl_typesupport_introspection_c.h
+[23.554s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__rosidl_typesupport_introspection_c.h
+[23.557s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__rosidl_typesupport_introspection_c.h
+[23.560s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__rosidl_typesupport_introspection_c.h
+[23.564s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__rosidl_typesupport_introspection_c.h
+[23.567s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__rosidl_typesupport_introspection_c.h
+[23.570s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__rosidl_typesupport_introspection_c.h
+[23.573s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[23.576s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__rosidl_typesupport_introspection_c.h
+[23.579s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.583s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__rosidl_typesupport_introspection_cpp.hpp
+[23.586s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__rosidl_typesupport_introspection_cpp.hpp
+[23.589s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__rosidl_typesupport_introspection_cpp.hpp
+[23.592s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__rosidl_typesupport_introspection_cpp.hpp
+[23.595s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__rosidl_typesupport_introspection_cpp.hpp
+[23.598s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__rosidl_typesupport_introspection_cpp.hpp
+[23.601s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__rosidl_typesupport_introspection_cpp.hpp
+[23.604s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__rosidl_typesupport_introspection_cpp.hpp
+[23.607s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[23.610s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__rosidl_typesupport_introspection_cpp.hpp
+[23.613s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/pythonpath.sh
+[23.617s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/pythonpath.dsv
+[23.620s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2-0.1.0-py3.10.egg-info/PKG-INFO
+[23.623s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2-0.1.0-py3.10.egg-info/SOURCES.txt
+[23.626s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2-0.1.0-py3.10.egg-info/dependency_links.txt
+[23.629s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2-0.1.0-py3.10.egg-info/top_level.txt
+[23.633s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/__init__.py
+[23.636s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_c.c
+[23.640s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.644s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[23.647s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/librm_referee_ros2__rosidl_generator_py.so
+[23.650s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/__init__.py
+[23.653s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_bullet_remaining.py
+[23.656s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_bullet_remaining_s.c
+[23.660s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_field_events.py
+[23.663s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_field_events_s.c
+[23.666s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_result.py
+[23.669s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_result_s.c
+[23.672s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_robot_hp.py
+[23.675s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_robot_hp_s.c
+[23.678s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_status.py
+[23.682s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_status_s.c
+[23.685s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_referee_warning.py
+[23.689s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_referee_warning_s.c
+[23.693s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_hurt.py
+[23.696s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_hurt_s.c
+[23.700s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_pos.py
+[23.703s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_pos_s.c
+[23.706s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_status.py
+[23.710s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_status_s.c
+[23.713s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_shoot_data.py
+[23.716s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_shoot_data_s.c
+[23.719s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.722s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.726s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.729s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.729s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.729s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.730s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameStatus.idl
+[23.733s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameRobotHp.idl
+[23.736s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameResult.idl
+[23.739s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/FieldEvents.idl
+[23.743s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotHurt.idl
+[23.747s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RefereeWarning.idl
+[23.750s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/ShootData.idl
+[23.753s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/BulletRemaining.idl
+[23.756s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotStatus.idl
+[23.760s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotPos.idl
+[23.763s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameStatus.msg
+[23.766s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameRobotHp.msg
+[23.769s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameResult.msg
+[23.773s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/FieldEvents.msg
+[23.776s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotHurt.msg
+[23.779s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RefereeWarning.msg
+[23.783s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/ShootData.msg
+[23.786s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/BulletRemaining.msg
+[23.790s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotStatus.msg
+[23.793s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotPos.msg
+[23.797s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/rm_referee_ros2/rm_referee_node
+[23.800s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/debug_ui.hpp
+[23.803s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/protocol.hpp
+[23.805s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/referee.hpp
+[23.812s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/launch/referee.launch.py
+[23.816s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/ament_index/resource_index/package_run_dependencies/rm_referee_ros2
+[23.819s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/ament_index/resource_index/parent_prefix_path/rm_referee_ros2
+[23.822s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/ament_prefix_path.sh
+[23.825s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/ament_prefix_path.dsv
+[23.828s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/path.sh
+[23.831s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/path.dsv
+[23.834s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/local_setup.bash
+[23.837s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/local_setup.sh
+[23.841s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/local_setup.zsh
+[23.844s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/local_setup.dsv
+[23.848s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/package.dsv
+[23.851s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/ament_index/resource_index/packages/rm_referee_ros2
+[23.855s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rosidl_cmake-extras.cmake
+[23.858s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.861s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.863s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[23.866s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[23.869s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.872s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.874s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2Config.cmake
+[23.877s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2Config-version.cmake
+[23.880s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/package.xml
+[23.883s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_generator_c.so
+[23.883s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_generator_c.so" to ""
+[23.883s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_fastrtps_c.so
+[23.883s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_fastrtps_c.so" to ""
+[23.883s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_fastrtps_cpp.so
+[23.883s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.883s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_introspection_c.so
+[23.883s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_introspection_c.so" to ""
+[23.883s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_c.so
+[23.884s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_c.so" to ""
+[23.884s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_introspection_cpp.so
+[23.884s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_introspection_cpp.so" to ""
+[23.884s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_cpp.so
+[23.884s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_cpp.so" to ""
+[23.917s] Listing '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/__init__.py'...
+[23.917s] Listing '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/__init__.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_bullet_remaining.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_field_events.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_result.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_robot_hp.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_status.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_referee_warning.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_hurt.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_pos.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_status.py'...
+[23.917s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_shoot_data.py'...
+[23.920s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_generator_py.so
+[23.921s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_generator_py.so" to ""
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_cExport.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_cExport-noconfig.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_cppExport.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_introspection_cExport.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_cExport.cmake
+[23.921s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[23.922s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[23.922s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.922s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_cppExport.cmake
+[23.922s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[23.922s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_pyExport.cmake
+[23.922s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_pyExport-noconfig.cmake
+[23.924s] Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/serial/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_referee_ros2

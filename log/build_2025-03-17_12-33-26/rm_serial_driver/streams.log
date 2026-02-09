@@ -1,0 +1,297 @@
+[0.010s] Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib:/home/hj/PB_RM_Vision_2/install/serial/lib:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_serial_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/rm_serial_driver
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.230s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.241s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.474s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.575s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.577s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.642s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.664s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.751s] -- Found Threads: TRUE  
+[0.842s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[0.843s] -- Found ASIO: /usr/include  
+[0.955s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.956s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.956s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.042s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.337s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.109s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.110s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.110s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.110s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.110s]   the cmake_policy command to set the policy and suppress this warning.
+[2.110s] 
+[2.110s] Call Stack (most recent call first):
+[2.111s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.111s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.111s]   CMakeLists.txt:51 (rosidl_generate_interfaces)
+[2.111s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.111s] [0m
+[2.126s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.127s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.127s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.127s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.128s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.128s]   the cmake_policy command to set the policy and suppress this warning.
+[2.128s] 
+[2.128s] Call Stack (most recent call first):
+[2.128s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.128s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.128s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.128s]   CMakeLists.txt:51 (rosidl_generate_interfaces)
+[2.128s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.128s] [0m
+[2.143s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.143s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.143s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.143s]   the cmake_policy command to set the policy and suppress this warning.
+[2.143s] 
+[2.143s] Call Stack (most recent call first):
+[2.143s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.143s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.143s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.143s]   CMakeLists.txt:51 (rosidl_generate_interfaces)
+[2.143s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.144s] [0m
+[2.147s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.147s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.147s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.147s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.163s] -- Found PythonExtra: .so  
+[2.208s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.209s] -- Configured cppcheck include dirs: /home/hj/PB_RM_Vision_2/src/rm_serial_driver/include
+[2.209s] -- Configured cppcheck exclude dirs and/or files: 
+[2.210s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.210s] -- Configured cpplint exclude dirs and/or files: 
+[2.210s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.211s] -- Added test 'lint_cmake' to check CMake code style
+[2.211s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.212s] -- Added test 'xmllint' to check XML markup files
+[2.213s] -- Added test 'clang_format' to check C / C++ code style
+[2.216s] -- Configuring done (2.2s)
+[2.260s] -- Generating done (0.0s)
+[2.271s] -- Build files have been written to: /home/hj/PB_RM_Vision_2/build/rm_serial_driver
+[2.284s] Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib:/home/hj/PB_RM_Vision_2/install/serial/lib:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hj/PB_RM_Vision_2/src/rm_serial_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hj/PB_RM_Vision_2/install/rm_serial_driver
+[2.285s] Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib:/home/hj/PB_RM_Vision_2/install/serial/lib:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_serial_driver -- -j8 -l8
+[2.305s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.311s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.311s] [  6%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[2.311s] [  9%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/crc.cpp.o[0m
+[2.311s] [ 11%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_node.dir/rclcpp_components/node_main_rm_serial_driver_node.cpp.o[0m
+[2.315s] [ 11%] Built target ament_cmake_python_symlink_rm_serial_driver
+[2.607s] running egg_info
+[2.608s] creating rm_serial_driver.egg-info
+[2.608s] writing rm_serial_driver.egg-info/PKG-INFO
+[2.608s] writing dependency_links to rm_serial_driver.egg-info/dependency_links.txt
+[2.608s] writing top-level names to rm_serial_driver.egg-info/top_level.txt
+[2.608s] writing manifest file 'rm_serial_driver.egg-info/SOURCES.txt'
+[2.610s] reading manifest file 'rm_serial_driver.egg-info/SOURCES.txt'
+[2.611s] writing manifest file 'rm_serial_driver.egg-info/SOURCES.txt'
+[2.622s] [ 15%] [32mBuilding C object CMakeFiles/rm_serial_driver_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_serial_driver/msg/detail/robot_status__functions.c.o[0m
+[2.623s] [ 15%] [32mBuilding C object CMakeFiles/rm_serial_driver_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_serial_driver/msg/detail/shoot_data__functions.c.o[0m
+[2.639s] [ 15%] Built target ament_cmake_python_build_rm_serial_driver_egg
+[2.672s] [ 18%] [32m[1mLinking C shared library librm_serial_driver_interfaces__rosidl_generator_c.so[0m
+[2.702s] [ 18%] Built target rm_serial_driver_interfaces__rosidl_generator_c
+[2.709s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.709s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.709s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.750s] [ 25%] Built target rm_serial_driver_interfaces__cpp
+[2.757s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.758s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.761s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.125s] [ 34%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_serial_driver/msg/shoot_data__type_support.cpp.o[0m
+[3.166s] [ 36%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_serial_driver/msg/robot_status__type_support.cpp.o[0m
+[3.183s] [ 38%] [32mBuilding C object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_serial_driver/msg/detail/shoot_data__type_support.c.o[0m
+[3.198s] [ 40%] [32m[1mLinking CXX shared library librm_serial_driver_interfaces__rosidl_typesupport_c.so[0m
+[3.200s] [ 43%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_serial_driver/msg/shoot_data__type_support.cpp.o[0m
+[3.223s] [ 45%] [32mBuilding C object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_serial_driver/msg/detail/robot_status__type_support.c.o[0m
+[3.241s] [ 45%] Built target rm_serial_driver_interfaces__rosidl_typesupport_c
+[3.250s] [ 47%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_serial_driver/msg/robot_status__type_support.cpp.o[0m
+[3.250s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_serial_driver/msg/detail/shoot_data__type_support_c.cpp.o[0m
+[3.250s] [ 52%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_serial_driver/msg/detail/shoot_data__type_support.cpp.o[0m
+[3.258s] [ 54%] [32m[1mLinking C shared library librm_serial_driver_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.278s] [ 56%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/dds_fastrtps/shoot_data__type_support.cpp.o[0m
+[3.306s] [ 56%] Built target rm_serial_driver_interfaces__rosidl_typesupport_introspection_c
+[3.313s] [ 59%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_serial_driver/msg/detail/robot_status__type_support.cpp.o[0m
+[3.608s] [ 61%] [32m[1mLinking CXX shared library librm_serial_driver_interfaces__rosidl_typesupport_cpp.so[0m
+[3.609s] [ 63%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_serial_driver/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[3.643s] [ 65%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_serial_driver/msg/detail/robot_status__type_support_c.cpp.o[0m
+[3.699s] [ 65%] Built target rm_serial_driver_interfaces__rosidl_typesupport_cpp
+[3.900s] [ 68%] [32m[1mLinking CXX shared library librm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.947s] [ 70%] [32m[1mLinking CXX shared library librm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.966s] [ 70%] Built target rm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp
+[4.005s] [ 70%] Built target rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c
+[4.028s] [ 72%] [32m[1mLinking CXX shared library librm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.083s] [ 72%] Built target rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.093s] [ 72%] Built target rm_serial_driver_interfaces
+[4.103s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.518s] [ 75%] Built target rm_serial_driver_interfaces__py
+[4.527s] [ 77%] [32mBuilding C object CMakeFiles/rm_serial_driver_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_serial_driver/msg/_shoot_data_s.c.o[0m
+[4.528s] [ 79%] [32mBuilding C object CMakeFiles/rm_serial_driver_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_serial_driver/msg/_robot_status_s.c.o[0m
+[4.644s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/rm_serial_driver/librm_serial_driver_interfaces__rosidl_generator_py.so[0m
+[4.667s] [ 81%] Built target rm_serial_driver_interfaces__rosidl_generator_py
+[4.679s] [ 84%] [32mBuilding C object CMakeFiles/rm_serial_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_serial_driver/_rm_serial_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[4.679s] [ 88%] [32mBuilding C object CMakeFiles/rm_serial_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_serial_driver/_rm_serial_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.680s] [ 88%] [32mBuilding C object CMakeFiles/rm_serial_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_serial_driver/_rm_serial_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.782s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.792s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.793s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.814s] [ 95%] Built target rm_serial_driver__rosidl_typesupport_c__pyext
+[4.815s] [ 95%] Built target rm_serial_driver__rosidl_typesupport_introspection_c__pyext
+[4.820s] [ 95%] Built target rm_serial_driver__rosidl_typesupport_fastrtps_c__pyext
+[5.440s] [ 97%] [32m[1mLinking CXX executable rm_serial_driver_node[0m
+[5.533s] [ 97%] Built target rm_serial_driver_node
+[18.142s] [100%] [32m[1mLinking CXX shared library librm_serial_driver.so[0m
+[19.243s] [100%] Built target rm_serial_driver
+[19.248s] Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib:/home/hj/PB_RM_Vision_2/install/serial/lib:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_serial_driver -- -j8 -l8
+[19.250s] Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib:/home/hj/PB_RM_Vision_2/install/serial/lib:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_serial_driver
+[19.253s] -- Install configuration: ""
+[19.253s] -- Execute custom install script
+[19.253s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/rm_serial_driver/rm_serial_driver_node
+[19.257s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/ament_index/resource_index/rosidl_interfaces/rm_serial_driver
+[19.260s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__functions.h
+[19.263s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__struct.h
+[19.265s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__type_support.h
+[19.268s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__functions.h
+[19.271s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__struct.h
+[19.273s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__type_support.h
+[19.276s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/robot_status.h
+[19.279s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/rosidl_generator_c__visibility_control.h
+[19.282s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/shoot_data.h
+[19.285s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.sh
+[19.288s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.dsv
+[19.291s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[19.294s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__rosidl_typesupport_fastrtps_c.h
+[19.297s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.300s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[19.303s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__rosidl_typesupport_introspection_c.h
+[19.306s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.308s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__builder.hpp
+[19.311s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__struct.hpp
+[19.314s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__traits.hpp
+[19.317s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__type_support.hpp
+[19.320s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__builder.hpp
+[19.322s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__struct.hpp
+[19.325s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__traits.hpp
+[19.328s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__type_support.hpp
+[19.331s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/robot_status.hpp
+[19.334s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.336s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/shoot_data.hpp
+[19.339s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[19.343s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__rosidl_typesupport_fastrtps_cpp.hpp
+[19.346s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.349s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[19.351s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver/msg/detail/shoot_data__rosidl_typesupport_introspection_cpp.hpp
+[19.354s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/environment/pythonpath.sh
+[19.357s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/environment/pythonpath.dsv
+[19.360s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver-0.1.0-py3.10.egg-info/PKG-INFO
+[19.362s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver-0.1.0-py3.10.egg-info/SOURCES.txt
+[19.365s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver-0.1.0-py3.10.egg-info/dependency_links.txt
+[19.367s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver-0.1.0-py3.10.egg-info/top_level.txt
+[19.370s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/__init__.py
+[19.372s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/_rm_serial_driver_s.ep.rosidl_typesupport_c.c
+[19.375s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/_rm_serial_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.378s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/_rm_serial_driver_s.ep.rosidl_typesupport_introspection_c.c
+[19.381s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/librm_serial_driver_interfaces__rosidl_generator_py.so
+[19.383s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg/__init__.py
+[19.387s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg/_robot_status.py
+[19.389s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg/_robot_status_s.c
+[19.392s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg/_shoot_data.py
+[19.395s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg/_shoot_data_s.c
+[19.398s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.401s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.403s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.406s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.407s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.407s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/rm_serial_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.407s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/msg/ShootData.idl
+[19.410s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/msg/RobotStatus.idl
+[19.413s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/msg/ShootData.msg
+[19.416s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/msg/RobotStatus.msg
+[19.419s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/crc.hpp
+[19.421s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/packet.hpp
+[19.424s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp
+[19.427s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver.so
+[19.430s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml
+[19.432s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py
+[19.435s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/ament_index/resource_index/package_run_dependencies/rm_serial_driver
+[19.438s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/ament_index/resource_index/parent_prefix_path/rm_serial_driver
+[19.442s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.sh
+[19.447s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.dsv
+[19.451s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/environment/path.sh
+[19.453s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/environment/path.dsv
+[19.456s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/local_setup.bash
+[19.459s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/local_setup.sh
+[19.462s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/local_setup.zsh
+[19.465s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/local_setup.dsv
+[19.468s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/package.dsv
+[19.471s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/ament_index/resource_index/packages/rm_serial_driver
+[19.474s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/ament_index/resource_index/rclcpp_components/rm_serial_driver
+[19.477s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rosidl_cmake-extras.cmake
+[19.481s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.484s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.487s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[19.491s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_targets-extras.cmake
+[19.493s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.497s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.500s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig.cmake
+[19.503s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig-version.cmake
+[19.506s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/package.xml
+[19.509s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_generator_c.so
+[19.509s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_generator_c.so" to ""
+[19.509s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.510s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.510s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_introspection_c.so
+[19.510s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.510s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_c.so
+[19.510s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_c.so" to ""
+[19.510s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.510s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.511s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.511s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[19.511s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_cpp.so
+[19.511s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.535s] Listing '/home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver'...
+[19.535s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/__init__.py'...
+[19.535s] Listing '/home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg'...
+[19.535s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg/__init__.py'...
+[19.535s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg/_robot_status.py'...
+[19.535s] Compiling '/home/hj/PB_RM_Vision_2/install/rm_serial_driver/local/lib/python3.10/dist-packages/rm_serial_driver/msg/_shoot_data.py'...
+[19.538s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_generator_py.so
+[19.539s] -- Set non-toolchain portion of runtime path of "/home/hj/PB_RM_Vision_2/install/rm_serial_driver/lib/librm_serial_driver_interfaces__rosidl_generator_py.so" to ""
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_generator_cExport.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_generator_cExport-noconfig.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driver_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driver_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driver_interfaces__rosidl_typesupport_cExport.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driver_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_generator_cppExport.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.539s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.540s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driver_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.540s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driver_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.540s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driver_interfaces__rosidl_typesupport_cppExport.cmake
+[19.540s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driver_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[19.540s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_generator_pyExport.cmake
+[19.540s] -- Installing: /home/hj/PB_RM_Vision_2/install/rm_serial_driver/share/rm_serial_driver/cmake/export_rm_serial_driver_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[19.542s] Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib:/home/hj/PB_RM_Vision_2/install/serial/lib:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_serial_driver

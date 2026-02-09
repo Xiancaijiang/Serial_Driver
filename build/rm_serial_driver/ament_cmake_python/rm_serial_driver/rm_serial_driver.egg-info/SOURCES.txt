@@ -1,0 +1,9 @@
+setup.py
+rm_serial_driver/__init__.py
+rm_serial_driver.egg-info/PKG-INFO
+rm_serial_driver.egg-info/SOURCES.txt
+rm_serial_driver.egg-info/dependency_links.txt
+rm_serial_driver.egg-info/top_level.txt
+rm_serial_driver/msg/__init__.py
+rm_serial_driver/msg/_robot_status.py
+rm_serial_driver/msg/_shoot_data.py

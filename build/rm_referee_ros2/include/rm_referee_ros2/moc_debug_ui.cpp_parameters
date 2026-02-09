@@ -1,0 +1,13 @@
+-I/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2/include
+-I/usr/include/x86_64-linux-gnu/qt5
+-I/usr/include/x86_64-linux-gnu/qt5/QtWidgets
+-I/usr/include/x86_64-linux-gnu/qt5/QtGui
+-I/usr/include/x86_64-linux-gnu/qt5/QtCore
+-I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
+-I/home/hj/PB_RM_Vision_2/install/serial/include
+-I/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2
+-I/home/hj/PB_RM_Vision_2/build/rm_referee_ros2
+-DROS_PACKAGE_NAME="rm_referee_ros2"
+-o
+/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/include/rm_referee_ros2/moc_debug_ui.cpp
+/home/hj/PB_RM_Vision_2/src/rm_decision/rm_referee_ros2/include/rm_referee_ros2/debug_ui.hpp

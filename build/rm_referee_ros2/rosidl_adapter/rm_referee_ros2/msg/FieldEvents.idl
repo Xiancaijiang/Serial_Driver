@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_referee_ros2/msg/FieldEvents.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module rm_referee_ros2 {
+  module msg {
+    struct FieldEvents {
+      @verbatim (language="comment", text=
+        "场地事件类型")
+      uint32 event_type;
+
+      @verbatim (language="comment", text=
+        "时间戳")
+      builtin_interfaces::msg::Time stamp;
+    };
+  };
+};

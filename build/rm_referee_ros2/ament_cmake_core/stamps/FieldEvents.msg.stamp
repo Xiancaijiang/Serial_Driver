@@ -1,0 +1,2 @@
+uint32 event_type    # 场地事件类型
+builtin_interfaces/Time stamp  # 时间戳 

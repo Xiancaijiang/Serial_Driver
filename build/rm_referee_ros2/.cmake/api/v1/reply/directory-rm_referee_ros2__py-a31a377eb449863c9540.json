@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rm_referee_ros2__py",
+		"source" : "/home/hj/PB_RM_Vision_2/build/rm_referee_ros2/rm_referee_ros2__py"
+	}
+}

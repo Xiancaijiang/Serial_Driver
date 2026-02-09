@@ -1,0 +1,4 @@
+/home/hj/PB_RM_Vision_2/install/serial/lib/libserial.a
+/home/hj/PB_RM_Vision_2/install/serial/lib/serial/serial_example
+/home/hj/PB_RM_Vision_2/install/serial/share/serial/cmake/export_serialExport.cmake
+/home/hj/PB_RM_Vision_2/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake

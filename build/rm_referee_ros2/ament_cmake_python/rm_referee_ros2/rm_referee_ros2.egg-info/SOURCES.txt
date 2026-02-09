@@ -1,0 +1,17 @@
+setup.py
+rm_referee_ros2/__init__.py
+rm_referee_ros2.egg-info/PKG-INFO
+rm_referee_ros2.egg-info/SOURCES.txt
+rm_referee_ros2.egg-info/dependency_links.txt
+rm_referee_ros2.egg-info/top_level.txt
+rm_referee_ros2/msg/__init__.py
+rm_referee_ros2/msg/_bullet_remaining.py
+rm_referee_ros2/msg/_field_events.py
+rm_referee_ros2/msg/_game_result.py
+rm_referee_ros2/msg/_game_robot_hp.py
+rm_referee_ros2/msg/_game_status.py
+rm_referee_ros2/msg/_referee_warning.py
+rm_referee_ros2/msg/_robot_hurt.py
+rm_referee_ros2/msg/_robot_pos.py
+rm_referee_ros2/msg/_robot_status.py
+rm_referee_ros2/msg/_shoot_data.py

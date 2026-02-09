@@ -1,0 +1,2 @@
+uint8 winner        # 获胜方 0:平局 1:红方胜利 2:蓝方胜利
+builtin_interfaces/Time stamp # 时间戳 

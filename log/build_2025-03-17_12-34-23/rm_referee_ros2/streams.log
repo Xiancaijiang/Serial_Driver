@@ -1,0 +1,303 @@
+[0.016s] Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2': CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/rm_vision_bringup:/home/hj/PB_RM_Vision_2/install/rm_serial_driver:/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/rm_rune_detector:/home/hj/PB_RM_Vision_2/install/rm_gimbal_description:/home/hj/PB_RM_Vision_2/install/rm_decision:/home/hj/PB_RM_Vision_2/install/rm_auto_aim:/home/hj/PB_RM_Vision_2/install/hik_camera:/home/hj/PB_RM_Vision_2/install/armor_tracker:/home/hj/PB_RM_Vision_2/install/armor_detector:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_referee_ros2 -- -j8 -l8
+[0.044s] [  1%] Built target rm_referee_ros2__rosidl_generator_c_autogen_timestamp_deps
+[0.044s] [  1%] Built target rm_referee_ros2__cpp
+[0.047s] [  1%] Built target ament_cmake_python_symlink_rm_referee_ros2
+[0.056s] [  2%] Built target rm_referee_ros2__rosidl_typesupport_cpp_autogen_timestamp_deps
+[0.057s] [  2%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_cpp_autogen_timestamp_deps
+[0.058s] [  3%] Built target rm_referee_ros2__rosidl_typesupport_introspection_cpp_autogen_timestamp_deps
+[0.066s] [  4%] Built target rm_referee_ros2__rosidl_generator_c_autogen
+[0.073s] [  5%] Built target rm_referee_ros2__rosidl_typesupport_cpp_autogen
+[0.073s] [  5%] Built target rm_referee_ros2__rosidl_typesupport_introspection_cpp_autogen
+[0.081s] [  6%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_cpp_autogen
+[0.095s] [ 15%] Built target rm_referee_ros2__rosidl_generator_c
+[0.102s] [ 24%] Built target rm_referee_ros2__rosidl_typesupport_introspection_cpp
+[0.108s] [ 25%] Built target rm_referee_ros2__rosidl_typesupport_c_autogen_timestamp_deps
+[0.108s] [ 34%] Built target rm_referee_ros2__rosidl_typesupport_cpp
+[0.109s] [ 35%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c_autogen_timestamp_deps
+[0.109s] [ 36%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c_autogen_timestamp_deps
+[0.117s] [ 45%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_cpp
+[0.119s] [ 45%] Built target rm_referee_node_autogen_timestamp_deps
+[0.133s] [ 45%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c_autogen
+[0.134s] [ 46%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c_autogen
+[0.137s] [ 47%] Built target rm_referee_ros2__rosidl_typesupport_c_autogen
+[0.141s] [ 47%] Built target rm_referee_node_autogen
+[0.157s] [ 57%] Built target rm_referee_ros2__rosidl_typesupport_c
+[0.161s] [ 66%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c
+[0.170s] [ 75%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c
+[0.174s] [ 80%] Built target rm_referee_node
+[0.180s] [ 80%] Built target rm_referee_ros2
+[0.189s] [ 81%] Built target rm_referee_ros2__py
+[0.198s] [ 81%] Built target rm_referee_ros2__rosidl_generator_py_autogen_timestamp_deps
+[0.213s] [ 81%] Built target rm_referee_ros2__rosidl_generator_py_autogen
+[0.238s] [ 90%] Built target rm_referee_ros2__rosidl_generator_py
+[0.247s] [ 90%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext_autogen_timestamp_deps
+[0.248s] [ 90%] Built target rm_referee_ros2__rosidl_typesupport_c__pyext_autogen_timestamp_deps
+[0.248s] [ 90%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen_timestamp_deps
+[0.265s] [ 91%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c__pyext_autogen
+[0.265s] [ 92%] Built target rm_referee_ros2__rosidl_typesupport_c__pyext_autogen
+[0.275s] running egg_info
+[0.276s] writing rm_referee_ros2.egg-info/PKG-INFO
+[0.276s] writing dependency_links to rm_referee_ros2.egg-info/dependency_links.txt
+[0.276s] writing top-level names to rm_referee_ros2.egg-info/top_level.txt
+[0.278s] reading manifest file 'rm_referee_ros2.egg-info/SOURCES.txt'
+[0.278s] writing manifest file 'rm_referee_ros2.egg-info/SOURCES.txt'
+[0.284s] [ 92%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext_autogen
+[0.291s] [ 94%] Built target rm_referee_ros2__rosidl_typesupport_c__pyext
+[0.294s] [ 97%] Built target rm_referee_ros2__rosidl_typesupport_introspection_c__pyext
+[0.301s] [ 97%] Built target ament_cmake_python_build_rm_referee_ros2_egg
+[0.312s] [100%] Built target rm_referee_ros2__rosidl_typesupport_fastrtps_c__pyext
+[0.317s] Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2' returned '0': CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/rm_vision_bringup:/home/hj/PB_RM_Vision_2/install/rm_serial_driver:/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/rm_rune_detector:/home/hj/PB_RM_Vision_2/install/rm_gimbal_description:/home/hj/PB_RM_Vision_2/install/rm_decision:/home/hj/PB_RM_Vision_2/install/rm_auto_aim:/home/hj/PB_RM_Vision_2/install/hik_camera:/home/hj/PB_RM_Vision_2/install/armor_tracker:/home/hj/PB_RM_Vision_2/install/armor_detector:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble /usr/local/bin/cmake --build /home/hj/PB_RM_Vision_2/build/rm_referee_ros2 -- -j8 -l8
+[0.319s] Invoking command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2': CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/rm_vision_bringup:/home/hj/PB_RM_Vision_2/install/rm_serial_driver:/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/rm_rune_detector:/home/hj/PB_RM_Vision_2/install/rm_gimbal_description:/home/hj/PB_RM_Vision_2/install/rm_decision:/home/hj/PB_RM_Vision_2/install/rm_auto_aim:/home/hj/PB_RM_Vision_2/install/hik_camera:/home/hj/PB_RM_Vision_2/install/armor_tracker:/home/hj/PB_RM_Vision_2/install/armor_detector:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_referee_ros2
+[0.322s] -- Install configuration: ""
+[0.323s] -- Execute custom install script
+[0.323s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/ament_index/resource_index/rosidl_interfaces/rm_referee_ros2
+[0.323s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/bullet_remaining.h
+[0.323s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__functions.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__struct.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__type_support.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__functions.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__struct.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__type_support.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__functions.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__struct.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__type_support.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__functions.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__struct.h
+[0.324s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__type_support.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__functions.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__struct.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__type_support.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__functions.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__struct.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__type_support.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__functions.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__struct.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__type_support.h
+[0.325s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__functions.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__struct.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__type_support.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__functions.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__struct.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__type_support.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__functions.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__struct.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__type_support.h
+[0.326s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/field_events.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_result.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_robot_hp.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_status.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/referee_warning.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_hurt.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_pos.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_status.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_generator_c__visibility_control.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/shoot_data.h
+[0.327s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/library_path.sh
+[0.328s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/library_path.dsv
+[0.328s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__rosidl_typesupport_fastrtps_c.h
+[0.328s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/bullet_remaining.hpp
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__builder.hpp
+[0.329s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__struct.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__traits.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__type_support.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__builder.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__struct.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__traits.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__type_support.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__builder.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__struct.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__traits.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__type_support.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__builder.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__struct.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__traits.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__type_support.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__builder.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__struct.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__traits.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__type_support.hpp
+[0.330s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__builder.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__struct.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__traits.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__type_support.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__builder.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__struct.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__traits.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__type_support.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__builder.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__struct.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__traits.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__type_support.hpp
+[0.331s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__builder.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__struct.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__traits.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__type_support.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__builder.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__struct.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__traits.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__type_support.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/field_events.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_result.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_robot_hp.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/game_status.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/referee_warning.hpp
+[0.332s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_hurt.hpp
+[0.333s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_pos.hpp
+[0.333s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/robot_status.hpp
+[0.333s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.333s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/shoot_data.hpp
+[0.333s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__rosidl_typesupport_fastrtps_cpp.hpp
+[0.333s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__rosidl_typesupport_fastrtps_cpp.hpp
+[0.333s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__rosidl_typesupport_fastrtps_cpp.hpp
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__rosidl_typesupport_fastrtps_cpp.hpp
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__rosidl_typesupport_fastrtps_cpp.hpp
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__rosidl_typesupport_fastrtps_cpp.hpp
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__rosidl_typesupport_introspection_c.h
+[0.334s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__rosidl_typesupport_introspection_c.h
+[0.335s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__rosidl_typesupport_introspection_c.h
+[0.335s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__rosidl_typesupport_introspection_c.h
+[0.335s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__rosidl_typesupport_introspection_c.h
+[0.335s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__rosidl_typesupport_introspection_c.h
+[0.335s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__rosidl_typesupport_introspection_c.h
+[0.335s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__rosidl_typesupport_introspection_c.h
+[0.335s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__rosidl_typesupport_introspection_c.h
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/bullet_remaining__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/field_events__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_result__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_robot_hp__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/game_status__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/referee_warning__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_hurt__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_pos__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/rm_referee_ros2/msg/detail/shoot_data__rosidl_typesupport_introspection_cpp.hpp
+[0.336s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/pythonpath.sh
+[0.337s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/pythonpath.dsv
+[0.337s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2-0.1.0-py3.10.egg-info/PKG-INFO
+[0.337s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.337s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.337s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2-0.1.0-py3.10.egg-info/top_level.txt
+[0.338s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/__init__.py
+[0.340s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_c.c
+[0.340s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.340s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/_rm_referee_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[0.340s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/librm_referee_ros2__rosidl_generator_py.so
+[0.340s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/__init__.py
+[0.340s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_bullet_remaining.py
+[0.340s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_bullet_remaining_s.c
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_field_events.py
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_field_events_s.c
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_result.py
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_result_s.c
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_robot_hp.py
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_robot_hp_s.c
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_status.py
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_game_status_s.c
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_referee_warning.py
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_referee_warning_s.c
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_hurt.py
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_hurt_s.c
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_pos.py
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_pos_s.c
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_status.py
+[0.342s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_robot_status_s.c
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_shoot_data.py
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg/_shoot_data_s.c
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/rm_referee_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameStatus.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameRobotHp.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameResult.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/FieldEvents.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotHurt.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RefereeWarning.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/ShootData.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/BulletRemaining.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotStatus.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotPos.idl
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameStatus.msg
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameRobotHp.msg
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/GameResult.msg
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/FieldEvents.msg
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotHurt.msg
+[0.343s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RefereeWarning.msg
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/ShootData.msg
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/BulletRemaining.msg
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotStatus.msg
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/msg/RobotPos.msg
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/rm_referee_ros2/rm_referee_node
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/debug_ui.hpp
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/protocol.hpp
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/include/rm_referee_ros2/referee.hpp
+[0.344s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/launch/referee.launch.py
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/ament_index/resource_index/package_run_dependencies/rm_referee_ros2
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/ament_index/resource_index/parent_prefix_path/rm_referee_ros2
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/ament_prefix_path.sh
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/ament_prefix_path.dsv
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/path.sh
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/environment/path.dsv
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/local_setup.bash
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/local_setup.sh
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/local_setup.zsh
+[0.345s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/local_setup.dsv
+[0.345s] -- Symlinking: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/package.dsv
+[0.349s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/ament_index/resource_index/packages/rm_referee_ros2
+[0.349s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rosidl_cmake-extras.cmake
+[0.349s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.350s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.350s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[0.350s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[0.350s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.350s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.350s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2Config.cmake
+[0.351s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2Config-version.cmake
+[0.351s] -- Up-to-date symlink: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/package.xml
+[0.351s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_generator_c.so
+[0.351s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_fastrtps_c.so
+[0.351s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_fastrtps_cpp.so
+[0.351s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_introspection_c.so
+[0.351s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_c.so
+[0.351s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_introspection_cpp.so
+[0.352s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_typesupport_cpp.so
+[0.377s] Listing '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2'...
+[0.377s] Listing '/home/hj/PB_RM_Vision_2/install/rm_referee_ros2/local/lib/python3.10/dist-packages/rm_referee_ros2/msg'...
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/lib/librm_referee_ros2__rosidl_generator_py.so
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_cExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_cExport-noconfig.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_cppExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_introspection_cExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_cExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_cppExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/rm_referee_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_pyExport.cmake
+[0.382s] -- Up-to-date: /home/hj/PB_RM_Vision_2/install/rm_referee_ros2/share/rm_referee_ros2/cmake/export_rm_referee_ros2__rosidl_generator_pyExport-noconfig.cmake
+[0.386s] Invoked command in '/home/hj/PB_RM_Vision_2/build/rm_referee_ros2' returned '0': CMAKE_PREFIX_PATH=/home/hj/PB_RM_Vision_2/install/serial:/home/hj/PB_RM_Vision_2/install/rm_vision_bringup:/home/hj/PB_RM_Vision_2/install/rm_serial_driver:/home/hj/PB_RM_Vision_2/install/rm_referee_ros2:/home/hj/PB_RM_Vision_2/install/rm_rune_detector:/home/hj/PB_RM_Vision_2/install/rm_gimbal_description:/home/hj/PB_RM_Vision_2/install/rm_decision:/home/hj/PB_RM_Vision_2/install/rm_auto_aim:/home/hj/PB_RM_Vision_2/install/hik_camera:/home/hj/PB_RM_Vision_2/install/armor_tracker:/home/hj/PB_RM_Vision_2/install/armor_detector:/home/hj/PB_RM_Vision_2/install/auto_aim_interfaces:/opt/ros/humble /usr/local/bin/cmake --install /home/hj/PB_RM_Vision_2/build/rm_referee_ros2

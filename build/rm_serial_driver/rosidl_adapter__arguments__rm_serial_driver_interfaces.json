@@ -1,0 +1,7 @@
+{
+  "package_name": "rm_serial_driver",
+  "non_idl_tuples": [
+    "/home/hj/PB_RM_Vision_2/src/rm_serial_driver:msg/ShootData.msg",
+    "/home/hj/PB_RM_Vision_2/src/rm_serial_driver:msg/RobotStatus.msg"
+  ]
+}

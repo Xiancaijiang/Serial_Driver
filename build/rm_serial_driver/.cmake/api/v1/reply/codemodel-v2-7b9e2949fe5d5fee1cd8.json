@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e0682a89de371a528af2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "rm_serial_driver_interfaces__py",
+					"jsonFile" : "directory-rm_serial_driver_interfaces__py-5d0ad56bceea5c4fe2b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hj/PB_RM_Vision_2/build/rm_serial_driver/rm_serial_driver_interfaces__py",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rm_serial_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rm_serial_driver_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rm_serial_driver_egg-6930ba3905296f660649.json",
+					"name" : "ament_cmake_python_build_rm_serial_driver_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_rm_serial_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_rm_serial_driver-ce98d71523c0802498a7.json",
+					"name" : "ament_cmake_python_symlink_rm_serial_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver-ad8b831bcfa670c22533.json",
+					"name" : "rm_serial_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver__rosidl_typesupport_c__pyext-22b68fa8f7daae9e2237.json",
+					"name" : "rm_serial_driver__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver__rosidl_typesupport_fastrtps_c__pyext-2d52d24f3769ee302a1b.json",
+					"name" : "rm_serial_driver__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver__rosidl_typesupport_introspection_c__pyext-7eebd3fc1d4eb60791b3.json",
+					"name" : "rm_serial_driver__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces-9ce3bf05de9ef85c9b43.json",
+					"name" : "rm_serial_driver_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__cpp-27e730dafbb0f22d0930.json",
+					"name" : "rm_serial_driver_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rm_serial_driver_interfaces__py::@fe02acef67fa0770d0f2",
+					"jsonFile" : "target-rm_serial_driver_interfaces__py-afa4f5523b430cda8af6.json",
+					"name" : "rm_serial_driver_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__rosidl_generator_c-a714a2fce074d43b6eca.json",
+					"name" : "rm_serial_driver_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__rosidl_generator_py-a269c3264877f86215fc.json",
+					"name" : "rm_serial_driver_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__rosidl_typesupport_c-59144dbea334c0fca769.json",
+					"name" : "rm_serial_driver_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__rosidl_typesupport_cpp-753ff7476e1235346395.json",
+					"name" : "rm_serial_driver_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c-e512fecef383f5488c11.json",
+					"name" : "rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp-b19e7bf359f408e59df1.json",
+					"name" : "rm_serial_driver_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__rosidl_typesupport_introspection_c-ff08d909ad785d21437e.json",
+					"name" : "rm_serial_driver_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp-07e8d531da28aefd1c90.json",
+					"name" : "rm_serial_driver_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_node-0ff2e2048ed94b3b03b5.json",
+					"name" : "rm_serial_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_serial_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_serial_driver_uninstall-cf44f2362dab7aca2be9.json",
+					"name" : "rm_serial_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-685abbfaffc71adaf5a7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hj/PB_RM_Vision_2/build/rm_serial_driver",
+		"source" : "/home/hj/PB_RM_Vision_2/src/rm_serial_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
